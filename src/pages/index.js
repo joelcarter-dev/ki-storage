@@ -12,7 +12,7 @@ const PriceItem = props => (
   <div className="priceItem">
     <p className="price">{props.price}</p>
     <ul>
-      <li>{props.h}m Door Hight</li>
+      <li>{props.h}m Door Height</li>
       <li>{props.w}m Door Width</li>
       <li>{props.bayDepth}m Bay Depth</li>
       <li>{props.bayWide}m Bay Wide</li>
@@ -49,7 +49,7 @@ export default () => (
     
     <div className="hero">
       <div className="saying">
-        <h2> Protecting your pride & joy from the eliments </h2>
+        <h2> Protecting your pride & joy from the elements </h2>
       </div>
     </div>
     
