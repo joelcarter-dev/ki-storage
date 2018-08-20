@@ -3,6 +3,8 @@ import React from "react"
 import Helmet from "react-helmet"
 
 import './main.sass'
+import map from '../img/map.png'
+import hero from '../img/Ki-Shed-5.jpg'
 
 const desc = `
   Boat storage in new zeland
@@ -47,25 +49,35 @@ export default () => (
       </div>
     </div>
     
-    <div className="hero">
+    <div 
+      className="hero"
+      style={{backgroundImage: `url(${hero})`}}
+    >
       <div className="saying">
-        <h2> Protecting your pride & joy from the elements </h2>
+        <h2> Protecting your Pride & Joy from the Elements </h2>
       </div>
     </div>
     
     <div className="boxes">
       <div className="left">
-        <i className="fas fa-phone"></i>
-        <p id="phone"> Call 021864254 </p>
+        <div className="box-content">
+          <i className="fas fa-phone"></i>
+          <p id="phone"> Call 021864254 </p>
+        </div>
       </div>
       
       <div className="right">
-        <i className="fas fa-envelope"></i>
-        <p>Email MangoBoatStorage@gmail.com</p>
+        <div className="box-content">
+          <i className="fas fa-envelope"></i>
+          <p>Email MangoBoatStorage@gmail.com</p>
+        </div>
       </div>
     </div>
     
-    <div className="location">
+    <div 
+      className="location"
+      style={{backgroundImage: `url(${map})`}}
+    >
       <div>
         <h3>Location</h3>
         <h4>(In the middle of everywhere)</h4>
