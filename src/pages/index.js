@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 
 import './main.sass'
 import map from '../img/map.png'
-import hero from '../img/Ki-Shed-5.jpg'
+import hero from '../img/Ki-Shed-5-min.jpg'
 
 const desc = `
   Boat storage in new zeland
