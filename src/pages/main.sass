@@ -26,13 +26,17 @@ body, html
       letter-spacing: 3px
       h1
         font-weight: 400
+        font-size: responsive
+        max-font-size: 60px
+        min-font-size: 20px
+        margin: 15px
       .underline
         width: 10rem
     .spans
       text-transform: uppercase
       span
         @media (--viewport-small)
-          margin: 5px
+          margin: 3px
         margin: 10px
   .hero
     position: relative
@@ -86,18 +90,20 @@ body, html
         border: none
         margin: 0 auto
         display: block
+  .location-title
+    position: relative
+    width: 100%
+    height: 100px
+    h3, h4
+      font-weight: 100
+      font-size: responsive
+      min-font-size: 20px
   .location
     height: 400px
     position: relative
     background-position: center
     background-size: cover
     background-repeat: no-repeat
-    div
-      position: absolute
-      top: 20px
-      left: center
-      *
-        font-weight: 100
   .prices
     position: relative
     margin-top: 30px

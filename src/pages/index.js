@@ -4,10 +4,10 @@ import Helmet from "react-helmet"
 
 import './main.sass'
 import map from '../img/map.png'
-import hero from '../img/Ki-Shed-5-min.jpg'
+import hero from '../img/Ki-Shed-5-min-copy.jpg'
 
 const desc = `
-  Boat storage in new zeland
+  Boat, campervan, caravan storage in mangakino new zeland, north island. Protecting your Pride & Joy from All the Elements.
 `
 
 const PriceItem = props => (
@@ -54,7 +54,7 @@ export default () => (
       style={{backgroundImage: `url(${hero})`}}
     >
       <div className="saying">
-        <h2> Protecting your Pride & Joy from the Elements </h2>
+        <h2> Protecting your Pride & Joy from All the Elements </h2>
       </div>
     </div>
     
@@ -74,16 +74,15 @@ export default () => (
       </div>
     </div>
     
+    <div className="location-title">
+      <h3>Location</h3>
+      <h4>(In the middle of everywhere)</h4>
+    </div>
+    
     <div 
       className="location"
       style={{backgroundImage: `url(${map})`}}
-    >
-      <div>
-        <h3>Location</h3>
-        <h4>(In the middle of everywhere)</h4>
-      </div>
-      
-    </div>
+    > </div>
     
     <div className="prices">
       <h4>Packages</h4>
