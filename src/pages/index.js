@@ -4,7 +4,7 @@ import Helmet from "react-helmet"
 
 import './main.sass'
 import map from '../img/map.png'
-import hero from '../img/Ki-Shed-5.jpg'
+import hero from '../img/ki-shed-5.jpg'
 
 const desc = `
   Boat, campervan, caravan storage in mangakino new zeland, north island. Protecting your Pride & Joy from All the Elements.
@@ -27,7 +27,7 @@ export default () => (
   
     <Helmet> 
       <title>Mangakino Storage</title>
-    
+      <link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
       <meta name="description" content={`${desc}`} />
       <html lang="en" />
       <link 
