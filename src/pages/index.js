@@ -4,11 +4,19 @@ import Helmet from "react-helmet"
 
 import './main.sass'
 import map from '../img/map.png'
-import hero from '../img/Ki-Shed-5-min-copy.jpg'
+import hero from '../img/Ki-Shed-5.jpg'
 
 const desc = `
   Boat, campervan, caravan storage in mangakino new zeland, north island. Protecting your Pride & Joy from All the Elements.
 `
+
+//change image
+
+//gtst ecslusvie 
+
+//fav icon
+
+//invoice ki
 
 const PriceItem = props => (
   <div className="priceItem">
@@ -113,6 +121,7 @@ export default () => (
       </div>
     </div>
     <div className="points">
+      <p>All prices are GST exclusive</p>
       <p>Key access. All sheds with concrete floors</p>
       <p id="tc">T & C apply</p>
     </div>

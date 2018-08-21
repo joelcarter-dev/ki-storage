@@ -1,7 +1,7 @@
 @custom-media --viewport-small (width <= 30rem)
 
 $black: #3f3f50
-
+$white: #f3f3f3
 body, html
   margin: 0
   padding: 0
@@ -25,6 +25,7 @@ body, html
     .header
       letter-spacing: 3px
       h1
+        color: $white
         font-weight: 400
         font-size: responsive
         max-font-size: 60px
@@ -32,8 +33,10 @@ body, html
         margin: 15px
       .underline
         width: 10rem
+        border-bottom: 2px solid $white
     .spans
       text-transform: uppercase
+      color: $white
       span
         @media (--viewport-small)
           margin: 3px
