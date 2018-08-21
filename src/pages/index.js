@@ -27,7 +27,7 @@ export default () => (
   
     <Helmet> 
       <title>Mangakino Storage</title>
-      <link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+    
       <meta name="description" content={`${desc}`} />
       <html lang="en" />
       <link 
