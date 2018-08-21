@@ -5,7 +5,7 @@ import Helmet from "react-helmet"
 import './main.sass'
 import map from '../img/map.png'
 import hero from '../img/ki-shed-5.jpg'
-import icon from '../img/myIcon.ico'
+import icon from '../img/favicon.ico'
 
 const desc = `
   Boat, campervan, caravan storage in mangakino new zeland, north island. Protecting your Pride & Joy from All the Elements.
