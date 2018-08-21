@@ -10,14 +10,6 @@ const desc = `
   Boat, campervan, caravan storage in mangakino new zeland, north island. Protecting your Pride & Joy from All the Elements.
 `
 
-//change image
-
-//gtst ecslusvie 
-
-//fav icon
-
-//invoice ki
-
 const PriceItem = props => (
   <div className="priceItem">
     <p className="price">{props.price}</p>
