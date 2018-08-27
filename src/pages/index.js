@@ -8,7 +8,7 @@ import hero from '../img/ki-shed-5.jpg'
 import icon from '../img/favicon.ico'
 
 const desc = `
-  Boat, campervan, caravan storage in mangakino. 16 Kahu street mangakino new zeland, north island. Protecting your Pride & Joy from All the Elements.
+  Boat, campervan, caravan storage in mangakino. 16 Kahu street Mangakino, lake Maraetai, Taupo. Protecting your Pride & Joy from All the Elements.
 `
 
 const PriceItem = props => (
