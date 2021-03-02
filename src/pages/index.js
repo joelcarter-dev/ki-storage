@@ -90,15 +90,15 @@ export default () => (
       <h4>Packages</h4>
       <div className="priceList">
         <PriceItem
-          price="$50 p/w"
+          price="$60 p/w"
           h="2.4"
           w="2.6"
-          bayDepth="10"
+          bayDepth="6.5"
           bayWide="3.5"
         />
       
         <PriceItem
-          price="$55 p/w"
+          price="$65 p/w"
           h="3.9"
           w="3.2"
           bayDepth="9"
@@ -109,19 +109,19 @@ export default () => (
           price="$60 p/w"
           h="3.9"
           w="3.0"
-          bayDepth="10"
+          bayDepth="6.5"
           bayWide="3.5"
         />
       </div>
     </div>
     <div className="points">
-      <p>All prices are GST exclusive</p>
+      <p>The price is the price no hidden extras.</p>
       <p>Key access. All sheds with concrete floors</p>
       <p id="tc">T & C apply</p>
     </div>
       
     <div className="plug">
-      <a href="https://jcicode.com/">Site by JCIcode.com</a>
+      <a  target="_blank" href="https://joelcarter.dev/">Site by Joelcarter.dev/</a>
        <div className="underline"></div>
     </div>
     
