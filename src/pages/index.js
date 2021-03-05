@@ -121,7 +121,7 @@ export default () => (
     </div>
       
     <div className="plug">
-      <a  target="_blank" href="https://joelcarter.dev/">Site by Joelcarter.dev/</a>
+      <a  target="_blank" href="https://joelcarter.dev/">Site by Joelcarter.dev</a>
        <div className="underline"></div>
     </div>
     
