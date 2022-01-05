@@ -90,7 +90,7 @@ export default () => (
       <h4>Packages</h4>
       <div className="priceList">
         <PriceItem
-          price="$60 p/w"
+          price="$65 p/w"
           h="2.4"
           w="2.6"
           bayDepth="6.5"
@@ -98,7 +98,7 @@ export default () => (
         />
       
         <PriceItem
-          price="$65 p/w"
+          price="$68 p/w"
           h="3.9"
           w="3.2"
           bayDepth="9"
@@ -106,7 +106,7 @@ export default () => (
         />
         
         <PriceItem
-          price="$60 p/w"
+          price="$65 p/w"
           h="3.9"
           w="3.0"
           bayDepth="6.5"
