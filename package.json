@@ -8,12 +8,12 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^1.9.277",
+    "gatsby": "^5.16.0",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-postcss-sass": "^1.0.22",
     "gatsby-plugin-react-helmet": "^2.0.11",
     "install": "^0.12.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^9.0.0",
     "postcss-alias": "^2.0.0",
     "postcss-aspect-ratio": "^1.0.2",
     "postcss-center": "^1.1.0",
